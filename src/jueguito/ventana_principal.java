@@ -16,6 +16,7 @@ public class ventana_principal extends JFrame {
     public ventana_principal(){
         super("Balas");
         setSize(900, 600);
+        setResizable(false);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         Container contenedor =getContentPane();
         contenedor.setLayout(new BorderLayout());
